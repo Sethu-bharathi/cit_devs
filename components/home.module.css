@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&display=swap');
+
+.container{
+        background-color: #111328;
+    /* background-image:linear-gradient(to right bottom,#AB5387 ,#5B396E,#231C37 ,#AA5387); */
+    /* background-image: url("../public/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover; */
+    height: 100%;
+    width:100%;
+}
+.typewriter{
+    color: white;
+}
+.heading{
+    color:white;
+    font-size:size 30px;
+    font-weight: 500;
+    
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: start;
+}
+.topic{
+    max-width:50%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.top{
+    width:100%;
+    z-index: 5;
+    position: fixed;
+    height: 80px;
+    background-color: #111328;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.skillholder{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 40%;
+    border-radius: 8%;
+}
+.pink{
+    color:#A31E52;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:x-large;
+    font-weight: 500;
+}
+.p{
+    color:white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:x-large;
+    font-weight: 500;
+}
+.bottom_container{
+    flex-wrap: wrap;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    padding:10px 0;
+}
+
+
+@media screen and (max-width:781px) {
+    .topic{
+        
+    max-width:90%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.topic h1{
+    padding:5px;
+}
+    .p{
+        color:white;
+        font-size:large;
+        font-weight: 500;
+        text-align: start;
+    }
+    .heading{
+        color:white;
+        font-size:xlarge;
+        font-weight: 500;
+        padding: 20px;
+    }
+    .top{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+
+

@@ -1,0 +1,183 @@
+.navigator{
+    border-radius: 8%;
+    height:40px;
+    width:auto;
+    margin-top: 10px;
+    padding:10px 20px;
+    background-color: transparent;
+    font-weight:500;
+    color:white;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+.navbar{
+    height:60px;
+    width:50%;
+    align-self: center;
+    flex-direction: row;
+    display: flex;
+    justify-content:space-evenly;
+    margin : 10px 0;
+}
+
+.navigator:hover{
+    cursor: pointer;
+    background-color: rgba(37,28,55,1);
+}
+
+
+.sizedbox{
+    height:10px;
+    width:20px;
+}
+
+.card{
+    border-radius: 100%;
+    background-color:#1D1E33;
+    margin:3px;
+    text-align: center;
+}
+
+.picholder{
+    height:auto;
+    max-width:120px;
+}
+
+.dots{
+    font-size: 3rem;
+    text-align: center;
+    color: #CBCCCC;
+}
+
+.mission_section{
+    background-color: #111328;
+    color: wheat;
+    padding-top: 2%;
+}
+
+.mission_sectionheader_left{
+    width:auto;
+    position:relative;
+    right:90px;
+    font-family: 'Poppins';
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+} 
+ .mission_sectionheader_right{
+     margin:0;
+     max-width: 90%;
+    position:relative;
+    left:78px;
+    font-family: 'Poppins';
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+
+.mission_1{
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+}
+
+.mission_2{
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+}
+
+.m1_img:hover{
+    filter: brightness(1.1);
+}
+
+.mission_section p{
+    width: 50%;
+    font-size: 1.2rem;
+    letter-spacing: 1.3px;
+    margin: 0 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.mission_section header{
+    color:rgb(223, 15, 195);
+}
+
+.contact_us{
+    background-color: #010104;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px 10px;
+}
+
+@media screen and (max-width:781px) {
+    .navbar{
+        width:100%;
+        align-self: center;
+        flex-direction: row;
+        display: flex;
+        justify-content:space-evenly;
+        margin : 15px 0;
+    }
+    .navigator{
+        border-radius: 8%;
+        height:40px;
+        width:auto;
+        margin-top: 10px;
+        padding:8px;
+        background-color: transparent;
+        font-weight:500;
+        color:white;
+        text-align: center;
+        font-family:sans-serif;
+    }
+    .mission_section p{
+        width: 80%;
+        font-size: 1.2rem;
+        letter-spacing: 1.3px;
+        margin: 0 20px;
+        
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .mission_sectionheader_left{
+        position:relative;
+        right:0px;
+        font-family: 'Poppins';
+        font-size: 2rem;
+        text-align: center;
+        font-weight: bold;
+        display: block;
+    } 
+     .mission_sectionheader_right{
+         margin-right: 0;
+         margin-top: 20px;
+         max-width: 90%;
+        position:relative;
+        left:0px;
+        font-family: 'Poppins';
+        font-size: 2rem;
+        text-align: center;
+        font-weight: bold;
+        display: block;
+    }
+    .misson_section_1{
+        margin-bottom: 20px;
+    }
+    .navigator:hover{
+        cursor: pointer;
+        background-color: rgba(37,28,55,1);
+    }
+}
